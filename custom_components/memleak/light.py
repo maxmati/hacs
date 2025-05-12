@@ -10,8 +10,8 @@ import voluptuous as vol
 import homeassistant.helpers.config_validation as cv
 from homeassistant.components.light import (ATTR_BRIGHTNESS, PLATFORM_SCHEMA,
                                             LightEntity, ColorMode)
-from homeassistant.components.memleak import Burak
-from homeassistant.components.memleak.const import DOMAIN
+from . import Burak
+from .const import DOMAIN
 from homeassistant.components.switch import SwitchEntity
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import CONF_ID, CONF_HOST, CONF_PASSWORD, CONF_USERNAME
