@@ -1,0 +1,17 @@
+{
+  "domain": "memleak",
+  "name": "Burak plant monitoring",
+  "integration_type": "device",
+  "codeowners": [
+    "@maxmati"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/memleak",
+  "homekit": {},
+  "iot_class": "local_polling",
+  "quality_scale": "bronze",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}
