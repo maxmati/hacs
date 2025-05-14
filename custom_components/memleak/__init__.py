@@ -11,7 +11,8 @@ from homeassistant.const import Platform, CONF_ID, CONF_HOST, CONF_PASSWORD, CON
 from homeassistant.core import HomeAssistant
 
 # For your initial PR, limit it to 1 platform.
-_PLATFORMS: list[Platform] = [Platform.LIGHT, Platform.SWITCH]
+# _PLATFORMS: list[Platform] = [Platform.LIGHT, Platform.SWITCH]
+_PLATFORMS: list[Platform] = [Platform.SWITCH]
 
 type BurakConfigEntry = ConfigEntry[Burak]
 
